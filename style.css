@@ -1,0 +1,120 @@
+body {
+  background-color: #f0f0f0;
+}
+
+h1 {
+  color: darkblue;
+  font-family: Georgia, serif;
+  text-align: center;
+}
+
+/* Override a Bootstrap button */
+.my-button {
+  background-color: green;
+  border: none;
+  text-align: center;
+  display: block;
+  margin: 20px auto;
+}
+
+img {
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  max-width: 100%;
+  height: auto;
+}
+/* Menu Section Style */
+.card {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+h2 {
+  color: darkblue;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.card-title {
+  font-size: 1.4rem; /* Bigger text */
+  font-weight: bold; /* Make it bold */
+  color: #c0392b; /* Nice red tone */
+  text-transform: uppercase; /* ALL CAPS */
+  letter-spacing: 1px; /* Space between letters */
+  margin-bottom: 10px;
+}
+
+.card-text {
+  color: #555;
+}
+/* 🟩 Menu Grid Cards */
+.card {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-title {
+  color: #2c3e50;
+}
+
+.card-text {
+  color: #555;
+}
+
+/* 🟦 About Us Section */
+section .row {
+  gap: 30px;
+}
+
+h3 {
+  color: darkblue;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+p {
+  color: #555;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.col-md-6 {
+  border: 2px dashed red;
+}
+
+/* 📬 Contact Form Styling */
+form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+form label {
+  font-weight: 500;
+}
+
+form input,
+form textarea {
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+form input:focus,
+form textarea:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+
+.btn {
+  font-weight: bold;
+}
+
+footer a:hover {
+  color: #ffc107; /* Golden yellow on hover */
+}
